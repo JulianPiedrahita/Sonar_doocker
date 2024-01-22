@@ -3,6 +3,7 @@ version: "3"
 services:
   sonarqube:
     image: sonarqube:10.2-community
+    restart: always
     expose:
       - "9000:9000"
     ports:
@@ -15,9 +16,12 @@ services:
       - SONARQUBE_JDBC_PASSWORD=sonar
     volumes:
       - sonarqube_conff:/opt/sonarqube/conf
-      - sonarqube_dataa:/opt/sonarqube/data
+      - sonarqube_data:/opt/sonarqube/data
       - sonarqube_extensionss:/opt/sonarqube/extensions
       - sonarqube_bundled-pluginss:/opt/sonarqube/lib/bundled-plugins
+      - sonarqubelogs/logs:/opt/sonarqube/logs
+      - /etc/localtime:/etc/localtime
+      - /etc/timezone:/etc/timezone
     deploy:
       resources:
         limits:
@@ -40,11 +44,14 @@ services:
 
 networks:
   sonarnet:
+    driver: brige
+    ipan:
+      driver: default
 
 volumes:
-  sonarqube_conff:
-  sonarqube_dataa:
-  sonarqube_extensionss:
-  sonarqube_bundled-pluginss:
-  postgresqll:
-  postgresql_dataa:
+  sonarqube_conff: {}
+  sonarqube_dataa: {}
+  sonarqube_extensionss: {}
+  sonarqube_bundled-pluginss: {}
+  postgresqll: {}
+  postgresql_dataa: {}
