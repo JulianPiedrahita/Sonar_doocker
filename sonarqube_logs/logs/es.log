@@ -1729,3 +1729,27 @@
 2024.01.22 16:55:38 INFO  es[][o.e.n.Node] started
 2024.01.22 16:55:38 INFO  es[][o.e.g.GatewayService] recovered [7] indices into cluster_state
 2024.01.22 16:55:41 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[metadatas][0]]]).
+2024.01.22 17:15:04 WARN  es[][o.e.t.ThreadPool] timer thread slept for [24.9s/24939ms] on absolute clock which is above the warn threshold of [5000ms]
+2024.01.22 17:15:04 WARN  es[][o.e.t.ThreadPool] timer thread slept for [24.9s/24938780407ns] on relative clock which is above the warn threshold of [5000ms]
+2024.01.22 17:20:38 WARN  es[][o.e.t.ThreadPool] timer thread slept for [4.7m/284691ms] on absolute clock which is above the warn threshold of [5000ms]
+2024.01.22 17:20:38 WARN  es[][o.e.t.ThreadPool] timer thread slept for [4.7m/284497077622ns] on relative clock which is above the warn threshold of [5000ms]
+2024.01.22 17:25:33 WARN  es[][o.e.t.ThreadPool] timer thread slept for [4m/244978ms] on absolute clock which is above the warn threshold of [5000ms]
+2024.01.22 17:25:33 WARN  es[][o.e.t.ThreadPool] timer thread slept for [4m/244978509968ns] on relative clock which is above the warn threshold of [5000ms]
+2024.01.22 17:25:33 WARN  es[][o.e.m.f.FsHealthService] health check of [/opt/sonarqube/data/es7/nodes/0] took [244979ms] which is above the warn threshold of [5s]
+2024.01.22 17:38:41 WARN  es[][o.e.t.ThreadPool] timer thread slept for [12.3m/738774ms] on absolute clock which is above the warn threshold of [5000ms]
+2024.01.22 17:38:41 WARN  es[][o.e.t.ThreadPool] timer thread slept for [12.3m/738947190681ns] on relative clock which is above the warn threshold of [5000ms]
+2024.01.22 17:44:20 WARN  es[][o.e.t.ThreadPool] timer thread slept for [4.8m/289353ms] on absolute clock which is above the warn threshold of [5000ms]
+2024.01.22 17:44:21 WARN  es[][o.e.t.ThreadPool] timer thread slept for [4.8m/289332070680ns] on relative clock which is above the warn threshold of [5000ms]
+2024.01.22 18:09:27 WARN  es[][o.e.t.ThreadPool] timer thread slept for [24.2m/1457256ms] on absolute clock which is above the warn threshold of [5000ms]
+2024.01.22 18:09:28 WARN  es[][o.e.t.ThreadPool] timer thread slept for [24.2m/1457255683172ns] on relative clock which is above the warn threshold of [5000ms]
+2024.01.22 18:31:07 WARN  es[][o.e.t.ThreadPool] timer thread slept for [16.1m/968150ms] on absolute clock which is above the warn threshold of [5000ms]
+2024.01.22 18:31:08 WARN  es[][o.e.t.ThreadPool] timer thread slept for [16.1m/968150652912ns] on relative clock which is above the warn threshold of [5000ms]
+2024.01.22 18:51:36 WARN  es[][o.e.t.ThreadPool] timer thread slept for [17.5m/1053921ms] on absolute clock which is above the warn threshold of [5000ms]
+2024.01.22 18:51:36 WARN  es[][o.e.t.ThreadPool] timer thread slept for [17.5m/1053921007430ns] on relative clock which is above the warn threshold of [5000ms]
+2024.01.22 18:51:37 WARN  es[][o.e.t.ThreadPool] execution of [ReschedulingRunnable{runnable=org.elasticsearch.monitor.jvm.JvmGcMonitorService$1@3edaf130, interval=1s}] took [1053921ms] which is above the warn threshold of [5000ms]
+2024.01.22 18:52:07 WARN  es[][o.e.t.ThreadPool] absolute clock went backwards by [12ms/12ms] while timer thread was sleeping
+2024.01.22 19:06:15 WARN  es[][o.e.t.ThreadPool] timer thread slept for [12.3m/738349ms] on absolute clock which is above the warn threshold of [5000ms]
+2024.01.22 19:06:15 WARN  es[][o.e.t.ThreadPool] timer thread slept for [12.3m/738348797328ns] on relative clock which is above the warn threshold of [5000ms]
+2024.01.22 19:09:57 WARN  es[][o.e.t.ThreadPool] timer thread slept for [2.8m/172055ms] on absolute clock which is above the warn threshold of [5000ms]
+2024.01.22 19:09:57 WARN  es[][o.e.t.ThreadPool] execution of [org.elasticsearch.cluster.InternalClusterInfoService$RefreshScheduler$$Lambda$3155/0x00000008017e3fe0@2224bbf7] took [172054ms] which is above the warn threshold of [5000ms]
+2024.01.22 19:09:57 WARN  es[][o.e.t.ThreadPool] timer thread slept for [2.8m/172054489673ns] on relative clock which is above the warn threshold of [5000ms]

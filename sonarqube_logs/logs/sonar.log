@@ -441,3 +441,7 @@
 2024.01.22 16:55:45 WARN  app[][startup] ################################################################################
 2024.01.22 16:55:45 WARN  app[][startup] The database must be manually upgraded. Please backup the database and browse /setup. For more information: https://docs.sonarqube.org/latest/setup/upgrading
 2024.01.22 16:55:45 WARN  app[][startup] ################################################################################
+2024.01.22 17:03:42 INFO  app[][o.s.a.SchedulerImpl] Process[web] is up
+2024.01.22 17:03:42 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[COMPUTE_ENGINE] from [/opt/sonarqube]: /opt/java/openjdk/bin/java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=/opt/sonarqube/temp -XX:-OmitStackTraceInFastThrow --add-opens=java.base/java.util=ALL-UNNAMED --add-exports=java.base/jdk.internal.ref=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.management/sun.management=ALL-UNNAMED --add-opens=jdk.management/com.sun.management.internal=ALL-UNNAMED -Dcom.redhat.fips=false -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Dhttp.nonProxyHosts=localhost|127.*|[::1] -cp ./lib/sonar-application-9.9.0.65466.jar:/opt/sonarqube/lib/jdbc/postgresql/postgresql-42.5.1.jar org.sonar.ce.app.CeServer /opt/sonarqube/temp/sq-process209306177481785318properties
+2024.01.22 17:03:46 INFO  app[][o.s.a.SchedulerImpl] Process[ce] is up
+2024.01.22 17:03:46 INFO  app[][o.s.a.SchedulerImpl] SonarQube is operational

@@ -30,3 +30,23 @@
 2024.01.22 16:52:59 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Shutdown initiated...
 2024.01.22 16:52:59 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Shutdown completed.
 2024.01.22 16:52:59 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopped
+2024.01.22 17:03:42 INFO  ce[][o.s.p.ProcessEntryPoint] Starting Compute Engine
+2024.01.22 17:03:42 INFO  ce[][o.s.ce.app.CeServer] Compute Engine starting up...
+2024.01.22 17:03:43 INFO  ce[][o.sonar.db.Database] Create JDBC data source for jdbc:postgresql://postgresql_net/sonarqube
+2024.01.22 17:03:43 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Starting...
+2024.01.22 17:03:43 INFO  ce[][c.z.h.p.HikariPool] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2ccb8e30
+2024.01.22 17:03:43 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Start completed.
+2024.01.22 17:03:44 INFO  ce[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /opt/sonarqube
+2024.01.22 17:03:44 INFO  ce[][o.s.c.c.CePluginRepository] Load plugins
+2024.01.22 17:03:45 INFO  ce[][o.s.c.c.ComputeEngineContainerImpl] Running Community edition
+2024.01.22 17:03:45 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is started
+2024.01.22 17:15:04 WARN  ce[][c.z.h.p.HikariPool] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50s693ms649µs40ns).
+2024.01.22 17:20:38 WARN  ce[][c.z.h.p.HikariPool] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m3s461ms232µs763ns).
+2024.01.22 17:25:33 WARN  ce[][c.z.h.p.HikariPool] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m24s354ms631µs10ns).
+2024.01.22 17:38:41 WARN  ce[][c.z.h.p.HikariPool] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m37s867ms335µs761ns).
+2024.01.22 17:44:20 WARN  ce[][c.z.h.p.HikariPool] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m9s111ms755µs431ns).
+2024.01.22 18:09:27 WARN  ce[][c.z.h.p.HikariPool] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=24m36s615ms65µs118ns).
+2024.01.22 18:31:07 WARN  ce[][c.z.h.p.HikariPool] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m9s568ms68µs147ns).
+2024.01.22 18:51:36 WARN  ce[][c.z.h.p.HikariPool] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m58s678ms634µs945ns).
+2024.01.22 19:06:15 WARN  ce[][c.z.h.p.HikariPool] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m37s920ms912µs712ns).
+2024.01.22 19:09:56 WARN  ce[][c.z.h.p.HikariPool] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m11s860ms49µs78ns).
