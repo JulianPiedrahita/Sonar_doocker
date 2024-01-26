@@ -1,5 +1,18 @@
-2024.01.25 11:01:01 WARN  ce[][c.z.h.p.HikariPool] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m30s559ms524µs435ns).
-2024.01.25 13:02:03 WARN  ce[][c.z.h.p.HikariPool] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h31s370ms928µs918ns).
-2024.01.25 13:13:53 WARN  ce[][c.z.h.p.HikariPool] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m19s879ms740µs992ns).
-2024.01.25 14:03:04 WARN  ce[][c.z.h.p.HikariPool] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49m11s430ms14µs719ns).
-2024.01.25 14:24:20 WARN  ce[][c.z.h.p.HikariPool] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m45s696ms615µs672ns).
+2024.01.26 15:04:18 WARN  ce[][c.z.h.p.HikariPool] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m55s708ms527µs366ns).
+2024.01.26 15:50:18 WARN  ce[][c.z.h.p.HikariPool] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45m59s839ms156µs380ns).
+2024.01.26 17:03:22 INFO  ce[][o.s.p.ProcessEntryPoint] Gracefully stopping process
+2024.01.26 17:03:22 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopping...
+2024.01.26 17:03:22 INFO  ce[][o.s.c.t.CeProcessingSchedulerImpl] Gracefully stopping workers...
+2024.01.26 17:03:22 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Shutdown initiated...
+2024.01.26 17:03:22 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Shutdown completed.
+2024.01.26 17:03:22 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopped
+2024.01.26 17:04:48 INFO  ce[][o.s.p.ProcessEntryPoint] Starting Compute Engine
+2024.01.26 17:04:48 INFO  ce[][o.s.ce.app.CeServer] Compute Engine starting up...
+2024.01.26 17:04:48 INFO  ce[][o.sonar.db.Database] Create JDBC data source for jdbc:postgresql://postgresql_net/sonarqube
+2024.01.26 17:04:48 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Starting...
+2024.01.26 17:04:48 INFO  ce[][c.z.h.p.HikariPool] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@201bb7d3
+2024.01.26 17:04:48 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Start completed.
+2024.01.26 17:04:50 INFO  ce[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /opt/sonarqube
+2024.01.26 17:04:50 INFO  ce[][o.s.c.c.CePluginRepository] Load plugins
+2024.01.26 17:04:51 INFO  ce[][o.s.c.c.ComputeEngineContainerImpl] Running Community edition
+2024.01.26 17:04:51 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is started
